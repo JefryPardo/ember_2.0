@@ -1,5 +1,5 @@
 <?php
-    include("../../services/conexion.php");
+    include("../../services/database.php");
 
     $nombre = $_POST["nombre"];
     $user = $_POST["usuario"];
@@ -8,7 +8,7 @@
 
     $sql = "INSERT  INTO registro (nombre, usuario, contrasenia) VALUES('$nombre','$user','$pass')";
     if(mysqli_query($con,$sql)){
-        echo "<script> alert('Se registro con exito: $nombre'); window.location='../login/index.html' </script>";
+        echo 'Se creo.';
     }
 
 ?>

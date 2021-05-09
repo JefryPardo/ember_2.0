@@ -13,19 +13,21 @@
     <main>
         <div class="login-page animated fadeInDown">
             <div class="form">
-                <form action="registro.php" class="login-form" method="POST">
-                    <input type="text" name="nombre"  placeholder="Nombre" required/>
-                    <input type="text" name="usuario" placeholder="Usuario" required/>
-                    <input type="password" name="contrasenia" placeholder="Contraseña" required/>
+                <form class="login-form" id="regis">
+                    <input type="text" placeholder="Nombre" id="_nombre" required/>
+                    <input type="text" placeholder="Usuario" id="_usuario" required/>
+                    <input type="password" placeholder="Contraseña" id="_contrasenia" required/>
                     <button type="submit">Guardar</button>
                     <p class="message">Ya tienes una cuenta? clic aquí: <a href="../login/index.html">Aquí</a></p>
                 </form>
             </div>
         </div>
-        <div id="respuesta"></div>
+        
 
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <script src="regis.js"></script>
 </body>
 
 </html>

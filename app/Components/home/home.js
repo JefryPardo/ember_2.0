@@ -17,4 +17,18 @@ $(document).ready(function(){
         });
     }
 
+    function salir(){        
+        $.ajax({
+            url: 'exit.php',
+            type: 'GET',
+            success: function (resp){
+                
+                if(resp){
+                    location.href ="../login/login.html";
+                }
+            }
+        });
+    }
+
+
 });

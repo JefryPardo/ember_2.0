@@ -14,7 +14,7 @@ Este proyecto está JavaScript, Html, Php  y Mysql
 ### 5. En phpmyadmin crear un usuario en: "Cuentas de usuarios" Nombre de usuario: parcial, Nombre de Host: localhost, Contraseña: 9696, ALL PRIVILEGES: todos.
 ### 6. Importa la base de datos que se encuentra en la carpeta SQL del repositorio.
 
-### 7. Iniciar la aplicación desde la ruta: http://localhost/Projects/ember_2/app/Components/login/index.html
+### 7. Iniciar la aplicación desde la ruta: http://localhost/ember_2/app/Components/login/index.html
 
 ### 8. Disfruta.
 
